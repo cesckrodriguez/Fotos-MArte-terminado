@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+.titulo{
+    color: rgb(81, 81, 231);
+    font-size: 5em;
+    display: inline-block;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-image: url(marte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Navegacion{
+   // border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    
+}
+
+#robot, #botonSeleccionador{
+    width: 10em;
+    height: 2em;
+    font-size: 25px;
+    background-color: transparent;
+    font-family: sans-serif;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+option{
+    color: black;
+}
+
+.gal{
+    color: rgba(240, 248, 255, 0.483);
+    margin: 1em;
+    font-size: 3em;
+}
+
+#botonSeleccionador{
+    border: .1px solid white;
+    font-family: sans-serif;
+    width: 5em;
+}
+
+#botonSeleccionador:hover{
+    color: white;
+    background-color: green;
+}
+
+#fotos{
+    margin: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+#contenedorImagenes{
+    width: 100%;
+    height: 80%;
+    
+}
+
+.contenedorBotones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.botones{
+    width: 11em;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    margin: 2em;
+}
+
+.oculto{
+    display: none;
+}
+
